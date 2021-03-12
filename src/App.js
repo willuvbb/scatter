@@ -1,10 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
+    <div class="parent blue">
+
+
+    <div class="box coral" contenteditable>
+      :)
+    </div>
+
     <div className="App">
-      <header className="App-header">
+      <div className="game">
+        <div className="col red">1</div>
+        <div className="col yellow">2</div>
+        <div className="col blue">3</div>
+      </div>
+
+      {/* <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +31,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

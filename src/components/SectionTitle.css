@@ -1,0 +1,9 @@
+.SectionTitle {
+  padding: 1em 1em 1em 1em;
+  font-weight: bold;
+}
+.topLeft {
+  top: 0;
+  left: 0;
+  position: absolute;
+}

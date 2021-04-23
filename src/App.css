@@ -1,28 +1,79 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100%;
+  width: 100%;
+  font-family: cursive;
+  /* display: flex; */
 }
 
 .game {
   display: flex;
+  position: absolute;
   height: 100%;
   width: 100%;
+  /* background-color: salmon; */
 }
 
+.lightblue {
+  background-color: lightblue;
+}
 .blue {
-  background-color: blueviolet;
+  background-color: blue;
 }
 
 .yellow {
   background-color: yellow;
 }
 
+.olive {
+  background-color: olive;
+}
 .red {
-  background-color: red;
+  background-color: rgb(131, 42, 42);
+}
+
+.green {
+  background-color: seagreen;
+}
+
+.orange {
+  background-color: orange;
 }
 
 .col {
-  height: 100%;
-  width: 33%;
+  /* height: 100%; */
+  /* width: 33%; */
+  /* display: flex;
+  flex: 1 0 auto;
+  padding: 1rem;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center; */
+}
+
+.subcol {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+
+.subsubcol {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   align-items: center;
   justify-content: center;
+  flex: 1 1 150px;
+}
+
+.bigLetter {
+  font-size: 8em;
+}
+
+.timer {
+  font-size: 4em;
 }

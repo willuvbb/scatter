@@ -1,0 +1,7 @@
+.GreyButton {
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding: 1em;
+  opacity: 50%;
+}
